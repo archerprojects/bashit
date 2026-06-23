@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=BashIt
+GenericName=Bash History Manager
+Comment=Curate and manage bash command profiles
+Exec=bashit
+Icon=bashit
+Terminal=false
+Type=Application
+Categories=X-LEAN-Tools;Utility;
+Keywords=bash;history;terminal;commands;profile;
+StartupNotify=false

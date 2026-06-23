@@ -1,0 +1,8 @@
+Package: bashit
+Version: 1.0.0
+Architecture: amd64
+Maintainer: archerprojects <archer.projects@proton.me>
+Description: Bash command file curator and profile manager
+ Curate, profile, and manage bash history and command files.
+ Lock resident commands, switch profiles, and export clean history.
+Depends: libc6, libgcc-s1, libgl1, libxcb1, libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxkbcommon0
