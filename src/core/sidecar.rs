@@ -36,6 +36,7 @@ impl Sidecar {
     }
 
     /// Update last_loaded to now — call when a profile is opened.
+    #[allow(dead_code)]
     pub fn touch(&mut self) {
         self.last_loaded = Utc::now().to_rfc3339();
     }

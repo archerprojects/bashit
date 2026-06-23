@@ -9,7 +9,7 @@
 
 /// Attempt to load the 32px app icon from the system hicolor tree.
 /// Returns None silently if the icon is not installed or cannot be decoded.
-pub fn load_window_icon() -> Option<eframe::IconData> {
+pub fn load_window_icon() -> Option<egui::IconData> {
     let themes = ["hicolor", "gnome", "Adwaita"];
     let size = "32x32";
 
@@ -22,12 +22,12 @@ pub fn load_window_icon() -> Option<eframe::IconData> {
     None
 }
 
-fn try_load(path: &str) -> Option<eframe::IconData> {
+fn try_load(path: &str) -> Option<egui::IconData> {
     let data = std::fs::read(path).ok()?;
     let img = image::load_from_memory_with_format(&data, image::ImageFormat::Png).ok()?;
     let rgba = img.into_rgba8();
     let (width, height) = rgba.dimensions();
-    Some(eframe::IconData {
+    Some(egui::IconData {
         rgba: rgba.into_raw(),
         width,
         height,
