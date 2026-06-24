@@ -10,11 +10,22 @@ clean, not exported. No checkboxes, no ambiguity.
 
 ---
 
+---
+
+## Developer
+
 ```
 Developer:  archerprojects
 Contact:    archer.projects@proton.me
 Maintainer: archerprojects <archer.projects@proton.me>
-GitHub:     https://github.com/archerprojects/bashit
+archerprojects (archer.projects@proton.me)
+https://github.com/archerprojects/bashit
+```
+
+Developed for Lean Linux. Not exclusive to Lean Linux — it runs on any
+supported Linux desktop.
+
+---
 ```
 
 Developed for Lean Linux. Not exclusive to Lean Linux — runs on any standard
